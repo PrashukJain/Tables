@@ -1,0 +1,64 @@
+#root{
+  /* overflow: auto; */
+  /* display: flex; */
+}
+.parent{
+  display: flex;
+}
+#header {
+  --offset: var(--space);
+  position: fixed;
+  top: var(--offset);
+  height: 100%;
+margin-top: 55px; 
+}
+#header .pro-sidebar {
+   width: 100%;
+  min-width: 100%;
+}
+#header .pro-sidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+table{
+margin-left: 100px;
+border: 2px solid black;
+max-width:80%
+ }
+.addButton{
+  margin-right:20vw;
+  float: right;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+.pageParent{
+  margin-left: 30vw;
+}
+.pageParent > * {
+  margin: 5px;
+}
+.cellButton{
+  text-align: center;
+}
+/**
+Login
+**/
+
+.cardParent{
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131, 226, 182)
+}
+/*NavBar*/
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+}
+.popper-element{
+  margin-top: 70px !important;
+}
